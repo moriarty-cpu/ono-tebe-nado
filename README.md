@@ -1,1 +1,1 @@
-https://github.com/moriarty-cpu/ono-tebe-nado-fd
+https://github.com/moriarty-cpu/ono-tebe-nado
