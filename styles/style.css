@@ -1,1 +1,280 @@
-/* место для вашего кода */
+.header {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+  padding: 92px 50px 95px;
+  font-weight: 400;
+}
+
+.nav-items {
+  display: flex;
+  gap: 33px;
+  list-style-type: circle;
+}
+
+.nav-item-link {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.selected-item {
+  text-decoration: none;
+}
+
+
+.nav-item:first-child {
+  list-style-type: none;
+}
+
+.logo {
+  width: 148px;
+  height: 105px;
+  cursor: pointer;
+}
+
+.address {
+  max-width: 240px;
+  font-style: normal;
+  line-height: 1.4;
+  
+}
+
+.header__address {
+  justify-self: end;
+}
+
+.address a {
+  text-underline-offset: 4px;
+}
+
+.cover {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 757px;
+  padding: 165px 50px 50px;
+  background-image: url(../assets/cover.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.cover-title {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  font-size: 100px;
+  line-height: 1.3;
+  letter-spacing: 30px;
+  text-transform: uppercase; 
+}
+
+.cover-title-word {
+  display: block;
+}
+
+.cover-start-word {
+  text-align: start;
+}
+
+.cover-center-word {
+  padding-left: 30px;
+  text-align: center;
+}
+
+.cover-end-word {
+  justify-content: end;
+  margin-left: -30px;
+  text-align: end;
+}
+
+.description {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+.description-text {
+  word-spacing: 20px;
+}
+
+.description-button {
+  width: 256px;
+  height: 51px;
+  border: 1px solid #fff;
+  color: #fff;
+  text-transform: uppercase;
+  background: transparent;
+  cursor: pointer;
+}
+
+.description-button:hover {
+  color: rgba(0, 0, 0, 1);
+  background: #fff;
+}
+
+.lots {
+  padding: 180px 24px 120px ;
+}
+
+.lots-heading {
+  margin-bottom: 27px;
+  margin-left: 40px;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.lots__card-list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  list-style-type: none;
+}
+
+.lots__card-list-item {
+  width: 334px;
+  min-height: 596px;
+}
+
+.card-link, 
+.card {
+  height: 100%;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 48px 40px;
+  color: #fff;
+}
+
+.card_type_film {
+  background-image: url(../assets/film.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.card_type_book {
+  background-image: url(../assets/book.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.card_type_picture {
+  background-image: url(../assets/picture.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.card__title {
+  font-size: 22px;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.card__text {
+  font-size: 20px;
+}
+
+.card__title,
+.card__text {
+  z-index: 1;
+}
+
+.lots__look-more-link {
+  margin-left: 40px;
+  font-size: 20px;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: 334px max-content;
+  padding: 0px 24px 180px;
+}
+
+.about__column-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  min-height: 595px;
+  padding-left: 24px;
+}
+
+.about__logo {
+  display: flex;
+  justify-self: center;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+  height: 240px;
+  margin-top: 35px;
+  border-radius: 100%;
+  background-color: #000;
+}
+
+.about__logo-image {
+  width: 148px;
+  height: 105px;
+}
+
+.about__title {
+  margin-bottom: 100px;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.about__text {
+  display: grid;
+  gap: 24px;
+  max-width: 693px;
+  font-size: 20px;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 165px 1fr;
+  padding: 0 50px 82px;
+}
+
+.nav-items-footer {
+  display: block;
+  text-align: center;
+  list-style-type: none;
+  
+}
+
+.footer__address {
+  justify-self: self-start;
+  max-width: 265px;
+}
+
+.footer__social-list {
+  display: flex;
+  justify-self: self-end;
+  gap: 48px;
+  list-style-type: none;
+}
+
+.footer__social-link {
+  width: 48px;
+  height: 48px;
+}
+
+
+
