@@ -111,11 +111,7 @@
 }
 
 .description-text {
-  word-spacing: 20px;
-}
-
-.description-text span {
-  word-spacing: 18px;
+  word-spacing: 18.5px;
 }
 
 .description-button {
@@ -150,6 +146,7 @@
   justify-content: space-between;
   margin-bottom: 30px;
   list-style-type: none;
+  gap: 25px;
 }
 
 .lots__card-list-item {
